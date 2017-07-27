@@ -1,0 +1,45 @@
+{
+    "modes": {
+        "learner": "I’m a normal guy who’s heard about this bitcoin malarkey",
+        "shopper": "I just want to casually pick something up on the Dark Web",
+        "buyer": "I want to buy and hold bitcoin",
+        "ether": "I wish to contribute to Ethereum, the Unstoppable World Computer",
+        "investor": "I want to be an ICO tycoon"
+    },
+    "mode": {
+        "learner": [
+            {
+                "type": "text",
+                "value": "<h2>test</h2>"
+            },
+            {
+                "type": "text",
+                "value": "I can't. As much as I care about you, my first duty is to the ship. Damage report! You enjoyed that. I'm afraid I still don't understand, sir. Flair is what marks the difference between artistry and mere competence. Is it my imagination, or have tempers become a little frayed on the ship lately?"
+            }
+        ],
+        "shopper": [
+            {
+                "type": "text",
+                "value": "I can't. As much as I care about you, my first duty is to the ship. Damage report! You enjoyed that. I'm afraid I still don't understand, sir. Flair is what marks the difference between artistry and mere competence. Is it my imagination, or have tempers become a little frayed on the ship lately?"
+            }
+        ],
+        "buyer": [
+            {
+                "type": "text",
+                "value": "I can't. As much as I care about you, my first duty is to the ship. Damage report! You enjoyed that. I'm afraid I still don't understand, sir. Flair is what marks the difference between artistry and mere competence. Is it my imagination, or have tempers become a little frayed on the ship lately?"
+            }
+        ],
+        "ether": [
+            {
+                "type": "text",
+                "value": "I can't. As much as I care about you, my first duty is to the ship. Damage report! You enjoyed that. I'm afraid I still don't understand, sir. Flair is what marks the difference between artistry and mere competence. Is it my imagination, or have tempers become a little frayed on the ship lately?"
+            }
+        ],
+        "investor": [
+            {
+                "type": "text",
+                "value": "I can't. As much as I care about you, my first duty is to the ship. Damage report! You enjoyed that. I'm afraid I still don't understand, sir. Flair is what marks the difference between artistry and mere competence. Is it my imagination, or have tempers become a little frayed on the ship lately?"
+            }
+        ]
+    }
+}

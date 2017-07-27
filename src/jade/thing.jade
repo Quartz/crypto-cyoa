@@ -1,0 +1,10 @@
+select#modes
+	for v, k in modes
+		option(value=k)= v
+
+for v, k in modes
+	div(id=k, class="mode")
+		for graf in mode[k]
+			p!= graf.value
+	
+div#graphic

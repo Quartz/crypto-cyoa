@@ -1,20 +1,51 @@
 {
+    "ask": "So you want to buy bitcoin, ethereum, or another digital currency — great! We’re here help! Before we get started, tell us a little bit about yourself:",
     "modes": {
-        "learner": "I’m a normal guy who’s heard about this bitcoin malarkey",
+        "none": "What are you trying to accomplish?",
+        "learner": "I’m a normal person who’s heard about this bitcoin malarkey",
         "shopper": "I just want to casually pick something up on the Dark Web",
         "buyer": "I want to buy and hold bitcoin",
         "ether": "I wish to contribute to Ethereum, the Unstoppable World Computer",
         "investor": "I want to be an ICO tycoon"
     },
     "mode": {
+        "none": [],
         "learner": [
             {
                 "type": "text",
-                "value": "<h2>test</h2>"
+                "value": "<p>You’re not looking to become the next cryptoasset tycoon (we have another section for that), but it’s time to find out what this bitcoin malarky is all about. Here’s how you start. (Also, this is definitely not investment advice.) &#x1f4b8;</p>"
             },
             {
                 "type": "text",
-                "value": "I can't. As much as I care about you, my first duty is to the ship. Damage report! You enjoyed that. I'm afraid I still don't understand, sir. Flair is what marks the difference between artistry and mere competence. Is it my imagination, or have tempers become a little frayed on the ship lately?"
+                "value": "<h2>App-based Wallet</h2>"
+            },
+            {
+                "type": "text",
+                "value": "<p>First off, you need a cryptocurrency wallet. An easy way to do that is to download one to your phone from Apple’s App Store or Google Play. Keep in mind that this is an easy way—but it’s not necessarily the safest or most secure way of transacting in bitcoin. Some wallets have proven vulnerable to hacking.</p>"
+            },
+            {
+                "type": "text",
+                "value": "<p>That said, Breadwallet is an example of an app whose designers have tried to keep things simple and secure. If you’re just looking for an unusual way to buy vape-pen refills or bewilder (impress) a bitcoin-accepting barista, an app wallet is probably the easiest way to go.</p>"
+            },
+            {
+                "type": "text",
+                "value": "<p>If you’re using an app wallet like Breadwallet, you can check your transaction history to make sure it has been confirmed. You can also find out how much the actual transaction cost. Placing, verifying, and confirming your transaction on the public bitcoin blockchain takes some computing power, which in the world of bitcoin is known as “mining.”</p>"
+            },
+            {
+                "type": "text",
+                "value": "<p>Breadwallet automatically allocates some of your transaction to the miners to make sure it is confirmed and completed in a timely manner. (You may have thought that a famously decentralized asset like bitcoin would be free of fees, since it’s outside the formal banking system, but you would be wrong! Moving things around, even digitally, takes effort, and people who make effort usually like to be compensated for doing so.)</p>"
+            },
+            {
+                "type": "text",
+                "value": "<h2>ATM</h2>"
+            },
+            {
+                "type": "text",
+                "value": "<p>An easy, though expensive, way of doing this is via an ATM. You can find them through websites like coinatmradar.com. After you find your local bitcoin machine, be sure to show up with some local cash currency. The ATM will likely scan the “receive bitcoin QR code” on your bitcoin wallet, so configure your wallet and do so. The ATM will prompt you to enter cash and to send the bitcoin when you’re finished.</p>"
+            },
+            {
+                "type": "text",
+                "value": "<p>Now you’re looking at your bitcoin receipt. If you bought your bitcoin on a SatoshiPoint ATM in London on July 17, it may have quoted you a price of about 1 bitcoin to £1,729.55. The prevailing rate on bitcoin exchanges was closer to £1574.41—that’s the price you normally see when you read news articles about the cryptocurrency gaining or plunging. So your ATM rate is nearly 10% more expensive.</p><p>Why is the ATM more expensive? A charitable way to put it is that you paid for convenience. If you live in a country with a relatively stable currency, buying bitcoin via ATM to buy vape refills is an expensive way of going about it.</p>"
             }
         ],
         "shopper": [

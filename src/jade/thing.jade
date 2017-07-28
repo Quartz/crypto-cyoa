@@ -1,3 +1,5 @@
+p#ask!= ask
+
 select#modes
 	for v, k in modes
 		option(value=k)= v
@@ -5,6 +7,6 @@ select#modes
 for v, k in modes
 	div(id=k, class="mode")
 		for graf in mode[k]
-			p!= graf.value
+			div!= graf.value
 	
 div#graphic

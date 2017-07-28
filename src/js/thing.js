@@ -28,7 +28,7 @@ var MOBILE_BREAKPOINT = 600;
 function init() {
 	fm.setup()
 
-	d3.select("#modes").on("change", onModeChange).dispatch("change");
+	d3.select("#modes").on("change", onModeChange);
 
 	window.addEventListener("resize", utils.throttle(onResize, 250), true);
 }
@@ -39,14 +39,16 @@ function onModeChange() {
 	d3.selectAll(".mode").style("display", "none");
 	d3.select("#" + selected).style("display", "inherit");
 
-	fm.resize()
+	d3.select("#selected").style("display", "inherit");
+
+	fm.resize();
 }
 
 /**
  * Invoke on resize. By default simply rerenders the graphic.
  */
 function onResize() {
-	render();
+	fm.resize();
 }
 
 // Bind on-load handler

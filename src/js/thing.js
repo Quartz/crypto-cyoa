@@ -28,7 +28,10 @@ var MOBILE_BREAKPOINT = 600;
 function init() {
 	fm.setup()
 
-	d3.select("#modes").on("change", onModeChange);
+	d3.select("#modes select").on("change", onModeChange);
+
+	d3.select(".table1").html(d3.select("#table1").html());
+	d3.select(".table2").html(d3.select("#table2").html());
 
 	window.addEventListener("resize", utils.throttle(onResize, 250), true);
 }
@@ -38,8 +41,6 @@ function onModeChange() {
 
 	d3.selectAll(".mode").style("display", "none");
 	d3.select("#" + selected).style("display", "inherit");
-
-	d3.select("#selected").style("display", "inherit");
 
 	fm.resize();
 }

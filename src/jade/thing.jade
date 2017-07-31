@@ -1,12 +1,59 @@
 p#ask!= ask
 
-select#modes
-	for v, k in modes
-		option(value=k)= v
+div#modes
+	select
+		for v, k in modes
+			option(value=k)= v
 
 for v, k in modes
 	div(id=k, class="mode")
 		for graf in mode[k]
 			div!= graf.value
-	
-div#graphic
+
+div#table1
+	div.qz-table-container
+		table.qz-table
+			thead.qz-table-header
+				tr
+					td Method
+					td Average spread
+					td Examples
+					td Additional fees
+			tbody
+				tr.qz-table-row
+					td ATM
+					td 8.76%
+					td <a href="https://satoshipoint.com/">SatoshiPoint</a>, <a href="http://www.coinsource.net/">Coinsource</a>
+					td NA
+				tr.qz-table-row-alt
+					td Peer-to-peer
+					td ~3%
+					td <a href="http://localbitcoins.com">LocalBitcoins</a>
+					td 1% for advertisements
+				tr.qz-table-row
+					td Exchange
+					td 0.02%
+					td <a href="https://www.coinbase.com/">Coinbase</a> GDAX USD using credit card
+					td 0.25% taker
+
+div#table2
+	div.qz-table-container
+		table.qz-table
+			thead.qz-table-header
+				tr
+					td Method
+					td Pros
+					td Cons
+			tbody
+				tr.qz-table-row
+					td ATM
+					td Quick and easy
+					td Expensive
+				tr.qz-table-row-alt
+					td Peer-to-peer
+					td Fairly fast, bespoke
+					td Unstandardized transactions standards
+				tr.qz-table-row
+					td Exchange
+					td Time consuming
+					td Cheaper in the long run

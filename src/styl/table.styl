@@ -1,0 +1,133 @@
+.qz-table-container {
+	max-width: 640px;
+	overflow: hidden;
+}
+
+.qz-table {
+	width: 100%;
+	font-family: $qz-serif;
+	text-align: left;
+	display: table;
+	width: 100%;
+	color: $qz-body-black;
+	td, th {
+		padding: 12px 16px;
+		font-size: 20px;
+		line-height: 1.1em;
+	}
+	.qz-table-header {
+		font-family: $qz-sans-bold;
+		th {
+			font-weight: bold;
+			border-bottom: 1px solid #e2e2e2;
+		}
+	}
+	tr {
+		border-bottom: 1px solid #e2e2e2;
+		&.qz-table-row {
+			background-color: darken($qz-background-gray, 3%);;
+		}
+		&.qz-table-row-alt {
+			background-color: $qz-background-gray;
+		}
+	}
+}
+
+// On phones, rotate the table so that colums are fixed on left.
+// User scrolls horizontally
+@media only screen and (max-width $width-mobile) {
+	.qz-table-container {
+		border: 1px solid #e2e2e2;
+	}
+
+	.qz-table:not(.single-column) {
+		&.cf:after {
+			visibility: hidden;
+			display: block;
+			font-size: 0;
+			content: " ";
+			clear: both;
+			height: 0;
+		}
+		&.cf {
+			zoom: 1;
+		}
+		line-height: 20px;
+		width: 100%;
+		border-collapse: collapse;
+		border-spacing: 0;
+		display: block;
+		position: relative;
+		.qz-table-header {
+			display: block;
+			float: left;
+			max-width: 120px;
+			white-space: nowrap;
+			border-right: 3px solid #e2e2e2;
+			tr {
+				display: block;
+			}
+			th {
+				border-bottom: none;
+				text-align: left;
+				overflow: auto;
+				border-bottom: none;
+				display: block;
+				padding: 8px 16px 8px 10px;
+			}
+		}
+		.qz-table-header:after {
+			&.cf:after {
+				visibility: hidden;
+				display: block;
+				font-size: 0;
+				content: " ";
+				clear: both;
+				height: 0;
+			}
+			&.cf {
+				zoom: 1;
+			}
+			visibility: hidden;
+			display: block;
+			font-size: 0;
+			content: " ";
+			height: 0;
+		}
+		th,
+		td {
+			font-size: 16px;
+			margin: 0;
+			height: 20%;
+			vertical-align: top;
+			line-height: 1.2em;
+		}
+		tr {
+			border-bottom: none;
+		}
+		tbody {
+			display: block;
+			width: auto;
+			position: relative;
+			overflow-x: auto;
+			white-space: nowrap;
+		}
+		tbody tr {
+			display: inline-block;
+			vertical-align: top;
+		}
+		td {
+			display: block;
+			min-height: 1.1em;
+			text-align: left;
+			padding: 8px 16px;
+			border-left: 0;
+			border-right: 0;
+			border-bottom: 0;
+		}
+		th {
+			border-bottom: 0;
+			border-left: 0;
+		}
+	}
+}

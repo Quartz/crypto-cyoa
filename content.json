@@ -1,12 +1,11 @@
 {
-    "ask": "So you want to buy bitcoin, ethereum, or another digital currency — great! We’re here help! Before we get started, tell us a little bit about yourself:",
+    "ask": "So you want to buy bitcoin, ethereum, or another digital currency — great! Quartz is here help! Before we get started, answer one simple question for us:",
     "modes": {
-        "none": "What are you trying to accomplish?",
-        "learner": "I’m a normal person who’s heard about this bitcoin malarkey",
-        "shopper": "I just want to casually pick something up on the Dark Web",
-        "buyer": "I want to buy and hold bitcoin",
-        "ether": "I wish to contribute to Ethereum, the Unstoppable World Computer",
-        "investor": "I want to be an ICO tycoon"
+        "none": "Why are you interested in cryptocurrencies?",
+        "learner": "I’ve been hearing a lot about this bitcoin stuff.",
+        "shopper": "I’m just casually buying something on the Dark Web.",
+        "buyer": "I’m buying and holding until the price skyrockets.",
+        "investor": "I’m want to put Gordon Gekko to shame."
     },
     "mode": {
         "none": [],
@@ -37,6 +36,10 @@
             },
             {
                 "type": "text",
+                "value": "<div class=\"table1\"></div>"
+            },
+            {
+                "type": "text",
                 "value": "<h2>ATM</h2>"
             },
             {
@@ -46,30 +49,28 @@
             {
                 "type": "text",
                 "value": "<p>Now you’re looking at your bitcoin receipt. If you bought your bitcoin on a SatoshiPoint ATM in London on July 17, it may have quoted you a price of about 1 bitcoin to £1,729.55. The prevailing rate on bitcoin exchanges was closer to £1574.41—that’s the price you normally see when you read news articles about the cryptocurrency gaining or plunging. So your ATM rate is nearly 10% more expensive.</p><p>Why is the ATM more expensive? A charitable way to put it is that you paid for convenience. If you live in a country with a relatively stable currency, buying bitcoin via ATM to buy vape refills is an expensive way of going about it.</p>"
+            },
+            {
+                "type": "text",
+                "value": "<div class=\"table2\"></div>"
             }
         ],
         "shopper": [
             {
                 "type": "text",
-                "value": "I can't. As much as I care about you, my first duty is to the ship. Damage report! You enjoyed that. I'm afraid I still don't understand, sir. Flair is what marks the difference between artistry and mere competence. Is it my imagination, or have tempers become a little frayed on the ship lately?"
+                "value": "<p>TKTK</p>"
             }
         ],
         "buyer": [
             {
                 "type": "text",
-                "value": "I can't. As much as I care about you, my first duty is to the ship. Damage report! You enjoyed that. I'm afraid I still don't understand, sir. Flair is what marks the difference between artistry and mere competence. Is it my imagination, or have tempers become a little frayed on the ship lately?"
-            }
-        ],
-        "ether": [
-            {
-                "type": "text",
-                "value": "I can't. As much as I care about you, my first duty is to the ship. Damage report! You enjoyed that. I'm afraid I still don't understand, sir. Flair is what marks the difference between artistry and mere competence. Is it my imagination, or have tempers become a little frayed on the ship lately?"
+                "value": "<p>TKTK</p>"
             }
         ],
         "investor": [
             {
                 "type": "text",
-                "value": "I can't. As much as I care about you, my first duty is to the ship. Damage report! You enjoyed that. I'm afraid I still don't understand, sir. Flair is what marks the difference between artistry and mere competence. Is it my imagination, or have tempers become a little frayed on the ship lately?"
+                "value": "<p>TKTK</p>"
             }
         ]
     }

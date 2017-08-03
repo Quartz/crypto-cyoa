@@ -5,6 +5,10 @@ div#modes
 		for v, k in modes
 			option(value=k)= v
 
+for graf in intro
+	div(id=k, class="intro")
+		div!= graf.value
+
 for v, k in modes
 	div(id=k, class="mode")
 		for graf in mode[k]

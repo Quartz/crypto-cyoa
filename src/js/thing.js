@@ -29,7 +29,6 @@ function init() {
 	fm.setup()
 
 	d3.select("#modes select").on("change", onModeChange);
-
 	d3.select(".table1").html(d3.select("#table1").html());
 	d3.select(".table2").html(d3.select("#table2").html());
 
@@ -38,6 +37,11 @@ function init() {
 
 function onModeChange() {
 	var selected = d3.select(this).node().value;
+	if (selected !== "none") {
+		d3.selectAll(".intro").style("display", "block")
+	} else {
+		d3.selectAll(".intro").style("display", "none")
+	}
 
 	d3.selectAll(".mode").style("display", "none");
 	d3.select("#" + selected).style("display", "inherit");

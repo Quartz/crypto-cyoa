@@ -44,7 +44,7 @@ function onModeChange() {
 	}
 
 	d3.selectAll(".mode").style("display", "none");
-	d3.select("#" + selected).style("display", "inherit");
+	d3.selectAll("." + selected).style("display", "inherit");
 
 	fm.resize();
 }

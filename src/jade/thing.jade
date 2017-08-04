@@ -5,13 +5,18 @@ div#modes
 		for v, k in modes
 			option(value=k)= v
 
+for v, k in modes
+	div(class=k, class="mode")
+		for graf in mode[k][0].lastgraf
+			div!= graf.value
+
 for graf in intro
 	div(id=k, class="intro")
 		div!= graf.value
 
 for v, k in modes
-	div(id=k, class="mode")
-		for graf in mode[k]
+	div(class=k, class="mode")
+		for graf in mode[k][0].modebody
 			div!= graf.value
 
 div#table1

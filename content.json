@@ -1,5 +1,5 @@
 {
-    "ask": "So you want to buy bitcoin, ethereum, or another digital currency—great! Quartz is here help! But before we get started, answer one simple question in the dropdown menu below:",
+    "ask": "So you want to buy bitcoin, ethereum, or another digital currency—great! Quartz is here to help!",
     "modes": {
         "none": "How much do you know about cryptocurrencies?",
         "learner": "I’ve been hearing about this bitcoin thing.",
@@ -10,15 +10,15 @@
     "intro": [
         {
             "type": "text",
-            "value": "<p>This cheat sheet will get you started on two things: how to acquire cryptocurrencies, and how to store them. We’ve designed it for the increasingly diverse groups who are interested in cryptoasset markets, from the merely curious to the utterly obsessed.</p>"
+            "value": "<p>This cheat sheet will get you started on two things: how to acquire cryptocurrencies, and how to store them. We’ve designed it for the increasingly diverse groups who are interested in cryptoasset markets, from the merely curious to the utterly obsessed."
         },
         {
             "type": "text",
-            "value": "<p>It’s important to note that although we talk about cryptocurrencies being stored in digital wallets, this is just a metaphor—one of several confusing ones in the crypto world. Your cryptocurrency funds never actually leave their respective <a href=\"https://medium.com/the-intrepid-review/how-does-the-blockchain-work-for-dummies-explained-simply-9f94d386e093\">blockchains</a>. What you are storing is a specific private key, a string of characters that allow you to access the funds that reside on a blockchain.</p>"
+            "value": "<p>It’s important to note that although we talk about cryptocurrencies being stored in digital wallets, this is just a metaphor—one of several confusing ones in the crypto world. Your cryptocurrency funds never actually leave their respective <a href=\"https://medium.com/the-intrepid-review/how-does-the-blockchain-work-for-dummies-explained-simply-9f94d386e093\">blockchains</a>. What you are storing is a specific private key, a string of characters that allow you to access those funds."
         },
         {
             "type": "text",
-            "value": "<p>There are many ways to store those private keys, ranging from printing them out and locking the paper in a safe, to slick mobile apps. There are a similarly diverse ways to acquire cryptocoins, with various trade-offs in privacy, convenience, and speed. </p>"
+            "value": "<p>There are many ways to store those private keys, ranging from printing them out and locking the paper in a safe, to slick mobile apps. There are a similarly diverse ways to acquire cryptocoins, with various trade-offs in privacy, cost, and convenience."
         },
         {
             "type": "text",
@@ -26,7 +26,7 @@
         },
         {
             "type": "text",
-            "value": "<p>You will notice that some ways to acquire cryptocurrencies are cheaper than others. This reflects the trade-offs inherent in the nascent crypto-financial services industry. You’ll pay a premium for the privacy of using a bitcoin ATM, for example. You’ll pay less to use a bitcoin exchange, in return for handing over identifying documents. </p>"
+            "value": "<p>You will notice that some ways to acquire cryptocurrencies are cheaper than others. This reflects the trade-offs inherent in the nascent crypto-financial services industry. You’ll pay a premium for the privacy of using a bitcoin ATM, for example. You’ll pay less to use a bitcoin exchange, in return for handing over identifying documents."
         },
         {
             "type": "text",
@@ -34,305 +34,326 @@
         },
         {
             "type": "text",
-            "value": "<p>Cryptocurrencies are in the midst of an historic bull run. Ethereum has risen 40-fold and bitcoin has set a series of new record highs this year. But what goes up must come down. And remember: none of what we’re telling you here is investment advice. </p>"
+            "value": "<p>Cryptocurrencies are in the midst of an historic bull run. Ethereum has risen 40-fold and bitcoin has set a series of new record highs this year. But what goes up sometimes comes down. And remember: none of what we’re telling you here is investment advice."
         }
     ],
     "mode": {
-        "none": [],
+        "none": [
+            {
+                "lastgraf": [],
+                "modebody": []
+            }
+        ],
         "learner": [
             {
-                "type": "text",
-                "value": "<p>You’re not looking to become the next cryptoasset tycoon (we have another section for that), but it’s time to find out what this bitcoin malarky is all about. Here’s how you start. &#x1f4b8;</p>"
-            },
-            {
-                "type": "text",
-                "value": "<h2>How to access it: on an app</h2>"
-            },
-            {
-                "type": "text",
-                "value": "<p>If you’re just looking for a funky way to buy vape-pen refills online or impress a bitcoin-accepting barista, an app-based wallet is probably the easiest way to go.</p>"
-            },
-            {
-                "type": "text",
-                "value": "<p><a href=\"http://breadwallet.com\">Breadwallet</a>, available on iOS and Android, is an example of an app whose designers have tried to keep things simple and secure. One of Breadwallet’s features is that it automatically allocates a tiny amount of your bitcoin transaction to the miners to make sure it is confirmed—that is, added to the indelible bitcoin blockchain—and completed in a timely manner.</p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Another critical feature is that Breadwallet stores your private keys on the phone, not its servers. This means access to your wallet is solely within your control. This is generally a good idea, but it also means that if you lose your private key, you lose access to funds in that wallet for good. Breadwallet only works with bitcoin, but an alternative that includes ethereum is <a href=\"http://jaxx.io\">Jaxx</a>.</p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>If that doesn’t sound particularly appealing, you’ll have to trust third parties to handle your funds and private keys. This is what companies like <a href=\"http://coinbase.com\">Coinbase</a>, which boasts a slick mobile app, does for users. Coinbase is one of the most well-funded firms in the cryptocurrency space, having raised over $117 million from brand-name investors like Andreessen Horowitz, Draper Fisher Jurvetson, and financial institutions like Bank of Tokyo-Mitsubishi UFJ. Customer funds on Coinbase are insured, and Coinbase lets you store both bitcoin and ether. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<h2>How to get it: At a bitcoin ATM</h2>"
-            },
-            {
-                "type": "text",
-                "value": "<p>An easy, though expensive, way of buying cryptoassets is via an ATM. You can find them through websites like <a href=\"https://coinatmradar.com/\">coinatmradar.com</a>. After you identify a nearby bitcoin machine, be sure to show up with some local currency. The ATM will likely scan the “receive bitcoin QR code” on your bitcoin wallet, so configure your wallet beforehand, too. The ATM will prompt you to feed it cash and will exchange it for bitcoin.</p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Now look at your bitcoin receipt. If you bought your bitcoin on a SatoshiPoint ATM in London on July 17, it may have quoted you a price of about 1 bitcoin to £1,729.55. The prevailing rate on bitcoin exchanges was closer to £1,574.41 on that day. So, the ATM rate is nearly 10% more expensive than the price you normally see when you read news articles about cryptocurrencies rising or falling.</p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Most ATMs are bitcoin only, though there are a few that provide both bitcoin and ethereum out there. Check <a href=\"http://coinatmradar.com\">CoinATMRadar</a> to look for one near you. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Why is the ATM more expensive? You are paying for convenience. If you live in a country with a relatively stable currency, getting bitcoin via an ATM isn’t the most efficient way to do it. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<h2>How to get it: Earn it</h2>"
-            },
-            {
-                "type": "text",
-                "value": "<p>The burgeoning crypto-economy offers a few ways for you to earn some coins. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>One of them is <a href=\"https://21.co/\">21.co</a>. If you’re a bigshot, you can charge people for the privilege of sending you an email using 21’s email service. Name your price in bitcoin, and watch the proceeds roll in. Senders will have to pay the fee before their message is delivered to you. A number of famous venture capitalists, like Marc Andreessen (whose firm is an investor in 21), are listed there. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>If you’re more likely to pay someone to read your emails rather than the other way around, there is hope yet. 21 lets you do small tasks, like answering surveys, to earn tiny amounts of bitcoin. It’s a little like Amazon’s Mechanical Turk, except the payouts are in cryptocurrency. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Another platform has popped up farming out bitcoin payments for online work.  You can scan pirated movie files for a bitcoin bounty, using a tool offered by <a href=\"https://qz.com/1028528/custos-startup-uses-bitcoin-bounties-to-make-pirates-rat-on-one-another/\">Custos</a>, an anti-piracy tech startup from South Africa. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Then there are crypto “faucets,” which offer a tiny fractions of coins for free, either to encourage activities like crypto-gambling, boost the operator’s pageviews and ad revenues, or as an ideological vehicle to promote cryptocurrencies in general. Here’s a <a href=\"https://cryptojunction.com/free-ethereum-ether-eth/\">list of ether faucets</a> and a <a href=\"https://www.macobserver.com/tips/quick-tip/get-free-bitcoins-from-10-faucets-that-still-pay/\">list of bitcoin faucets</a>. </p>"
+                "lastgraf": [
+                    {
+                        "type": "text",
+                        "value": "<p>You’re not looking to become the next cryptoasset tycoon—we have another section for that (see the dropdown menu above)—but it’s time to find out what this bitcoin malarky is all about. Here’s how to start. &#x1f4b8; </p>"
+                    }
+                ],
+                "modebody": [
+                    {
+                        "type": "text",
+                        "value": "<h2>How to access it: on an app</h2>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>If you’re just looking for a funky way to buy vape-pen refills online or impress a bitcoin-accepting barista, an app-based wallet is probably the easiest way to go. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p><a href=\"http://breadwallet.com\">Breadwallet</a>, available on iOS and Android, is an example of an app whose designers have tried to keep things simple and secure. One of Breadwallet’s features is that it automatically allocates a tiny amount of your bitcoin transaction to the miners to make sure it is confirmed—that is, added to the indelible bitcoin blockchain—and completed in a timely manner. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Another critical feature is that Breadwallet stores your private keys on the phone, not its servers. This means access to your wallet is solely within your control. This is generally a good idea, but it also means that if you lose your private key, you lose access to funds in that wallet for good. Breadwallet only works with bitcoin, but an alternative that includes ethereum is <a href=\"http://jaxx.io\">Jaxx</a>.  </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>If that doesn’t sound particularly appealing, you’ll have to trust third parties to handle your funds and private keys. This is what companies like <a href=\"http://coinbase.com\">Coinbase</a>, which boasts a slick mobile app, do for users. Coinbase is one of the most well-funded firms in the cryptocurrency space, having raised over $117 million from brand-name investors like Andreessen Horowitz, Draper Fisher Jurvetson, and financial institutions like Bank of Tokyo-Mitsubishi UFJ. Customer funds on Coinbase are insured, and Coinbase lets you store both bitcoin and ether. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<h2>How to get it: At a crypto ATM</h2>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>An easy, though expensive, way of buying cryptoassets is via an ATM. You can find them through websites like C<a href=\"https://coinatmradar.com/\">oinATMRadar.com</a>. After you identify a nearby bitcoin machine, be sure to show up with some local currency. The ATM will likely scan the “receive bitcoin QR code” on your bitcoin wallet, so configure your wallet beforehand, too. The ATM will prompt you to feed it cash and will fill your wallet with bitcoin in return.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Now look at your bitcoin receipt. If you bought your bitcoin on a SatoshiPoint ATM in London on July 17, it may have quoted you a price of about 1 bitcoin to £1,729.55. The prevailing rate on bitcoin exchanges was closer to £1,574.41 on that day. As you can see, the ATM rate is considerably worse than the prevailing price set by online markets.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Most ATMs are bitcoin only, though there are a few that provide both bitcoin and ethereum out there. Check <a href=\"http://coinatmradar.com\">CoinATMRadar</a> to locate one near you. </p><p>Why is the ATM more expensive? You are paying for convenience. If you live in a country with a relatively stable currency, getting bitcoin via an ATM isn’t the most efficient way to do it. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<h2>How to get it: Earn it</h2>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>The burgeoning crypto-economy offers a few ways for you to earn some coins. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>One of them is <a href=\"https://21.co/\">21.co</a>. If you’re a bigshot, you can charge people for the privilege of sending you an email using 21’s email service. Name your price in bitcoin, and watch the proceeds roll in. Senders will have to pay the fee before their message is delivered to you. A number of famous venture capitalists, like Marc Andreessen (whose firm is an investor in 21), are listed there. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>If you’re more likely to pay someone to read your emails rather than the other way around, there is hope yet. 21 also lets you do small tasks, like answering surveys, to earn tiny amounts of bitcoin. It’s a little like Amazon’s Mechanical Turk, except the payouts are in cryptocurrency. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Another platform has popped up offering bitcoin payments for online work.  You can scan pirated movie files for a bitcoin bounty, using a tool offered by <a href=\"https://qz.com/1028528/custos-startup-uses-bitcoin-bounties-to-make-pirates-rat-on-one-another/\">Custos</a>, an anti-piracy tech startup from South Africa. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Then there are crypto “faucets,” which offer a tiny fractions of coins for free, either to encourage activities like crypto-gambling, boost the operator’s pageviews and ad revenues, or as an ideological vehicle to promote cryptocurrencies in general. <a href=\"https://cryptojunction.com/free-ethereum-ether-eth/\">Here’s a list of ether faucets</a> and a <a href=\"https://www.macobserver.com/tips/quick-tip/get-free-bitcoins-from-10-faucets-that-still-pay/\">list of bitcoin faucets</a>. </p>"
+                    }
+                ]
             }
         ],
         "shopper": [
             {
-                "type": "text",
-                "value": "<p>OK, so you think money should be free, and not under the thumb of the state. Decentralized, open-source, cryptocurrencies are the answer. Here’s how you get involved in the monetary revolution.✊</p>"
-            },
-            {
-                "type": "text",
-                "value": "<h2>How to access it: on the web</h2>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Accessing a wallet through a web interface can be more convenient than being tied to a phone app. Many web-based wallets are now so slick that they’re not much more complicated than using a phone app. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>One of the most popular web-based bitcoin wallets is, rather confusingly, named <a href=\"https://blockchain.info/wallet/#/\">Blockchain</a>. (That’s a bit like the most popular brand of jeans calling itself Denim.) Anyway, getting Blockchain’s wallet is about as difficult as signing up for a new email address. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>After you sign up you’re asked to deposit some money, and you can do so pretty much immediately with a debit card. It will cost you a 3% convenience fee, according to the website. If you decide to do it with a bank transfer then you’ll have to go through more rigorous identity checks intended to prevent Blockchain from inadvertently facilitating money laundering.  </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Blockchain only deals with bitcoin. For the ethereum and tokens crowd, there’s <a href=\"https://www.myetherwallet.com/\">MyEtherWallet</a>, which is usually referred to by its abbreviation, MEW. Creating a wallet at MEW is incredibly quick. Just click on “create a new wallet” and you’ll be guided through three steps before you have a brand new ethereum wallet ready to go. Remember to copy down your private key and keystore file somewhere—these allow you to access your wallet and restore it in case you lose your private key. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Both Blockchain and MEW don’t store your private keys, which means you have to take care to write down the various recovery phrases or store the encrypted private key files in a safe place. We’ve all heard that story of the guy who threw away his hard drive containing the private keys to <a href=\"https://gizmodo.com/some-fool-threw-away-a-hard-drive-with-7-5-million-of-1472685803\">a bitcoin fortune</a>, right?</p>"
-            },
-            {
-                "type": "text",
-                "value": "<h2>How to get it: At a bitcoin ATM</h2>"
-            },
-            {
-                "type": "text",
-                "value": "<p>An easy, though expensive, way of buying cryptoassets is via an ATM. You can find them through websites like <a href=\"https://coinatmradar.com/\">coinatmradar.com</a>. After you identify a nearby bitcoin machine, be sure to show up with some local currency. The ATM will likely scan the “receive bitcoin QR code” on your bitcoin wallet, so configure your wallet beforehand, too. The ATM will prompt you to feed it cash and will exchange it for bitcoin.</p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Now look at your bitcoin receipt. If you bought your bitcoin on a SatoshiPoint ATM in London on July 17, it may have quoted you a price of about 1 bitcoin to £1,729.55. The prevailing rate on bitcoin exchanges was closer to £1,574.41 on that day. So, the ATM rate is nearly 10% more expensive than the price you normally see when you read news articles about cryptocurrencies rising or falling.</p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Most ATMs are bitcoin only, though there are a few that provide both bitcoin and ethereum out there. Check <a href=\"http://coinatmradar.com\">CoinATMRadar</a> to look for one near you. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Why is the ATM more expensive? You are paying for convenience. If you live in a country with a relatively stable currency, getting bitcoin via an ATM isn’t the most efficient way to do it. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<h2>How to get it: Earn it</h2>"
-            },
-            {
-                "type": "text",
-                "value": "<p>The burgeoning crypto-economy offers a few ways for you to earn some coins. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>One of them is <a href=\"https://21.co/\">21.co</a>. If you’re a bigshot, you can charge people for the privilege of sending you an email using 21’s email service. Name your price in bitcoin, and watch the proceeds roll in. Senders will have to pay the fee before their message is delivered to you. A number of famous venture capitalists, like Marc Andreessen (whose firm is an investor in 21), are listed there. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>If you’re more likely to pay someone to read your emails rather than the other way around, there is hope yet. 21 lets you do small tasks, like answering surveys, to earn tiny amounts of bitcoin. It’s a little like Amazon’s Mechanical Turk, except the payouts are in cryptocurrency. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Another platform has popped up farming out bitcoin payments for online work.  You can scan pirated movie files for a bitcoin bounty, using a tool offered by <a href=\"https://qz.com/1028528/custos-startup-uses-bitcoin-bounties-to-make-pirates-rat-on-one-another/\">Custos</a>, an anti-piracy tech startup from South Africa. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Then there are crypto “faucets,” which offer tiny fractions of coins for free, either to encourage activities like crypto-gambling, boost the operator’s pageviews and ad revenues, or as an ideological vehicle to promote cryptocurrencies in general. Here’s a <a href=\"https://cryptojunction.com/free-ethereum-ether-eth/\">list of ether faucets</a> and a <a href=\"https://www.macobserver.com/tips/quick-tip/get-free-bitcoins-from-10-faucets-that-still-pay/\">list of bitcoin faucets</a>. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<h2>How to get it: Mine it</h2>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Mining cryptocurrencies is not for the faint-hearted. What started out as a DIY activity for hobbyists has become a billion-dollar industry, with giant warehouses full of servers consuming enough electricity to power <a href=\"http://digiconomist.net\">a small country</a>. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>But if you insist on mining, there are a couple of routes. You can buy a cloud-mining contract, which is like buying a stake in a bitcoin mining collective. You pay a cloud operator upfront for acertain amount of processing power. You then get a payout proportional to the amount you put in. Analytics site Crypto Compare has a <a href=\"https://www.cryptocompare.com/mining/#/contracts\">list of cloud contracts</a>—but beware, if a cloud mining contract sounds too good to be true, it probably is. The business is <a href=\"https://www.coindesk.com/sec-seeks-10-million-default-judgment-against-gaw-miners/\">rife with scams</a>. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>You can also try to build mining rigs yourself at home, and channel that processing power into a mining pool. This improves your odds of winning a payout because a mining pool’s combined processing power increases its odds of discovering a new bitcoin block. However, if you get a payout, it will be in proportion to the power you contributed, less fees to the pool. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>For instance, if you had one of Bitmain’s top of the line miners, it would take you about 14 weeks to earn back the $1,099 the miner would have cost you. And that assumes the bitcoin price is stable, and ignores operating costs like the electricity bill. Mining can be lucrative, but there are plenty of variables to consider, not least the noise and heat from having machines whirring away in your home. </p>"
+                "lastgraf": [
+                    {
+                        "type": "text",
+                        "value": "<p>OK, so you think money should be free, and not under the thumb of the state. Decentralized, open-source, cryptocurrencies are the answer. Here’s how you join the revolution.✊.</p>"
+                    }
+                ],
+                "modebody": [
+                    {
+                        "type": "text",
+                        "value": "<h2>How to access it: on the web</h2>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Accessing a wallet through a web interface can be more convenient than being tied to a phone app. Many web-based wallets are now so slick that they’re not much more complicated than using an app. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>One of the most popular web-based bitcoin wallets is, rather confusingly, named <a href=\"https://blockchain.info/wallet/#/\">Blockchain</a>. (That’s a bit like the most popular brand of jeans calling itself Denim.) Anyway, getting Blockchain’s wallet is about as difficult as signing up for a new email address.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>After you sign up you’re asked to deposit some money, and you can do so pretty much immediately with a debit card. It will cost you a 3% convenience fee, according to the website. If you decide to do it with a bank transfer then you’ll have to go through more rigorous identity checks intended to prevent Blockchain from inadvertently facilitating money laundering.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Blockchain only deals with bitcoin. For the ethereum and tokens crowd, there’s <a href=\"https://www.myetherwallet.com/\">MyEtherWallet</a>, which is usually referred to by its abbreviation, MEW. Creating a wallet at MEW is incredibly quick. Just click on “create a new wallet” and you’ll be guided through three steps before you have a brand new ethereum wallet ready to go. Remember to copy down your private key and keystore file somewhere—these allow you to access your wallet and restore it in case you lose your private key.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Both Blockchain and MEW don’t store your private keys, which means you have to take care to write down the various recovery phrases or store the encrypted private key files in a safe place. We’ve all heard that story of the guy who threw away his hard drive containing the private keys to <a href=\"https://gizmodo.com/some-fool-threw-away-a-hard-drive-with-7-5-million-of-1472685803\">a bitcoin fortune</a>, right?</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<h2>How to get it: At a crypto ATM</h2>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>An easy, though expensive, way of buying cryptoassets is via an ATM. You can find them through websites like C<a href=\"https://coinatmradar.com/\">oinATMRadar.com</a>. After you identify a nearby bitcoin machine, be sure to show up with some local currency. The ATM will likely scan the “receive bitcoin QR code” on your bitcoin wallet, so configure your wallet beforehand, too. The ATM will prompt you to feed it cash and will fill your wallet with bitcoin in return.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Now look at your bitcoin receipt. If you bought your bitcoin on a SatoshiPoint ATM in London on July 17, it may have quoted you a price of about 1 bitcoin to £1,729.55. The prevailing rate on bitcoin exchanges was closer to £1,574.41 on that day. As you can see, the ATM rate is considerably worse than the prevailing price set by online markets.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Most ATMs are bitcoin only, though there are a few that provide both bitcoin and ethereum out there. Check <a href=\"http://coinatmradar.com\">CoinATMRadar</a> to locate one near you. </p><p>Why is the ATM more expensive? You are paying for convenience. If you live in a country with a relatively stable currency, getting bitcoin via an ATM isn’t the most efficient way to do it. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<h2>How to get it: Earn it</h2>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>The burgeoning crypto-economy offers a few ways for you to earn some coins. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>One of them is <a href=\"https://21.co/\">21.co</a>. If you’re a bigshot, you can charge people for the privilege of sending you an email using 21’s email service. Name your price in bitcoin, and watch the proceeds roll in. Senders will have to pay the fee before their message is delivered to you. A number of famous venture capitalists, like Marc Andreessen (whose firm is an investor in 21), are listed there. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>If you’re more likely to pay someone to read your emails rather than the other way around, there is hope yet. 21 also lets you do small tasks, like answering surveys, to earn tiny amounts of bitcoin. It’s a little like Amazon’s Mechanical Turk, except the payouts are in cryptocurrency. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Another platform has popped up offering bitcoin payments for online work.  You can scan pirated movie files for a bitcoin bounty, using a tool offered by <a href=\"https://qz.com/1028528/custos-startup-uses-bitcoin-bounties-to-make-pirates-rat-on-one-another/\">Custos</a>, an anti-piracy tech startup from South Africa. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Then there are crypto “faucets,” which offer a tiny fractions of coins for free, either to encourage activities like crypto-gambling, boost the operator’s pageviews and ad revenues, or as an ideological vehicle to promote cryptocurrencies in general. <a href=\"https://cryptojunction.com/free-ethereum-ether-eth/\">Here’s a list of ether faucets</a> and a <a href=\"https://www.macobserver.com/tips/quick-tip/get-free-bitcoins-from-10-faucets-that-still-pay/\">list of bitcoin faucets</a>. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<h2>How to get it: Mine it</h2>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Mining cryptocurrencies is not for the faint-hearted. What started out as a DIY activity for hobbyists has become a billion-dollar industry, with giant warehouses full of servers consuming enough electricity to power a small country. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>But if you insist on mining, there are a couple of routes. You can buy a cloud-mining contract, which is like buying a stake in a bitcoin mining collective. You pay a cloud operator upfront for a certain amount of processing power. You then get a payout proportional to the amount you put in. Analytics site Crypto Compare has a <a href=\"https://www.cryptocompare.com/mining/#/contracts\">list of cloud contracts</a> but beware, if a cloud mining contract sounds too good to be true, it probably is. The business is <a href=\"https://www.coindesk.com/sec-seeks-10-million-default-judgment-against-gaw-miners/\">rife with scams</a>. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>You can also try to build mining rigs yourself at home, and channel that processing power into a mining pool. This improves your odds of winning a payout because a mining pool’s combined processing power increases its odds of discovering a new bitcoin block. However, if you get a payout, it will be in proportion to the power you contributed, less fees to the pool. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>For instance, if you had one of Bitmain’s top-of-the-line miners, it would take you about 14 weeks to earn back the $1,099 the hardware costs. And that assumes the bitcoin price is stable, and ignores operating costs like the electricity bill. Mining can be lucrative, but there are plenty of variables to consider, not least the noise and heat from having machines whirring away in your home. </p>"
+                    }
+                ]
             }
         ],
         "buyer": [
             {
-                "type": "text",
-                "value": "<p>You’re ready to move on from plain-vanilla bitcoin to something more exotic. You’ve probably heard about the hundreds of millions people have raised <a href=\"https://qz.com/1004892/the-bancor-ico-just-raised-153-million-on-ethereum-in-three-hours/\">selling cryptotokens</a>. Be warned: regulators are taking a long hard look at <a href=\"https://qz.com/1038916/the-sec-has-finally-weighed-in-on-the-crypto-token-frenzy-and-nobodys-going-to-jail-yet/\">whether token sales are legal</a>, so be prepared for a possible shakeout in these markets.&#x1f920;</p>"
-            },
-            {
-                "type": "text",
-                "value": "<h2>How to access it: on the web</h2>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Accessing a wallet through a web interface can be more convenient than being tied to a phone app. Many web-based wallets are now so slick that they’re not much more complicated than using a phone app. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>One of the most popular web-based bitcoin wallets is, rather confusingly, named <a href=\"https://blockchain.info/wallet/#/\">Blockchain</a>. (That’s a bit like the most popular brand of jeans calling itself Denim.) Anyway, getting Blockchain’s wallet is about as difficult as signing up for a new email address. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>After you sign up you’re asked to deposit some money, and you can do so pretty much immediately with a debit card. It will cost you a 3% convenience fee, according to the website. If you decide to do it with a bank transfer then you’ll have to go through more rigorous identity checks intended to prevent Blockchain from inadvertently facilitating money laundering.  </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Blockchain only deals with bitcoin. For the ethereum and tokens crowd, there’s <a href=\"https://www.myetherwallet.com/\">MyEtherWallet</a>, which is usually referred to by its abbreviation, MEW. Creating a wallet at MEW is incredibly quick. Just click on “create a new wallet” and you’ll be guided through three steps before you have a brand new ethereum wallet ready to go. Remember to copy down your private key and keystore file somewhere—these allow you to access your wallet and restore it in case you lose your private key. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Both Blockchain and MEW don’t store your private keys, which means you have to take care to write down the various recovery phrases or store the encrypted private key files in a safe place. We’ve all heard that story of the guy who threw away his hard drive containing the private keys to <a href=\"https://gizmodo.com/some-fool-threw-away-a-hard-drive-with-7-5-million-of-1472685803\">a bitcoin fortune</a>, right?</p>"
-            },
-            {
-                "type": "text",
-                "value": "<h2>How to access it: on custom-built hardware</h2>"
-            },
-            {
-                "type": "text",
-                "value": "<p>The most secure, if inconvenient, way to store your hoard is to keep it offline. One option is Trezor, which plugs into your USB drive and costs <a href=\"https://shop.trezor.io/?h=7472657a6f722e696f\">about $100</a>. In theory, it could protect all your cryptoassets—it works with bitcoin, ethereum, and ethereum-based tokens—even if your computer has been hacked. Ledger is another popular hardware wallet maker, with products starting from <a href=\"https://www.ledgerwallet.com/products\">around $80</a>.  </p><p>With Trezor, once you’ve bought and received your hardware—which is supposed to be protected from tampering with a security seal—you’ll need to plug it in with a USB cable for setup. You can do that online by installing some software or through a Google Chrome extension. An offline option for people with advanced skills is available using Python.</p><p>The next phase of the setup resembles other types of hardware purchases. You’ll create a recovery PIN and will need to come up with a 24-word recovery seed. That’s a string of text that you’ll have to write down somewhere. You’ll need to protect that text the same way you would any other important password. </p><p>Opendime is a hardware wallet (<a href=\"https://opendime.com/store\">$37.50 for a bag of three</a>) that is basically a disposable USB stick—think of it as carrying bitcoin around like cash that you plan to spend. It’s a bare circuit board covered in clear plastic that displays a QR code and a file with the bitcoin address when you plug it in. You will still need an online wallet to move funds on and off the device—it’s designed to be loaded with bitcoin once and then unloaded once. Transactions are meant to take place physically, like handing someone a gold coin or a wad of cash. This keeps it relatively safe from hackers, but you still have to reckon with the centuries-old problems of burglary. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<h2>How to get it: On an exchange</h2>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Exchanges are the main on-ramps to the cryptocurrency world. Opening an account with a cryptocurrency exchange is a lot like getting an account with a stock broker. You gain access to information on trading volumes in the market and decide what price you are wiling to buy or sell. It’s useful if you’re planning to trade regularly, or want to take advantage of advanced features like trading on margin or shorting. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Generally, you’ll get the best rates on an exchange compared to other channels, like buying from an ATM. The trade-off is that setting up an account can be cumbersome, because you have to share identification documents with the exchange in order to comply with anti-money laundering rules. Exchanges can take time to vet and approve this information, so don’t expect a quick turnaround.</p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>When picking an exchange, check that it serves your jurisdiction, and that it offers a bank account in your country that you can easily access. Also check its rules around withdrawing funds. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>The basic mechanics of all exchanges are the same: Wire money from a bank account to an exchange, wait for the funds to clear, usually between one and five days, and then start trading. You can withdraw funds in fiat currency via a bank transfer or by directing cryptocurrency to your own, off-exchange wallet.</p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Exchanges tend to specialize in certain geographies or currency pairs. Try <a href=\"https://www.gdax.com/\">GDAX</a>, <a href=\"https://gemini.com/\">Gemini</a>, or <a href=\"https://www.itbit.com/\">itBit</a> in the US; <a href=\"https://www.bitstamp.net/\">Bitstamp</a> or <a href=\"https://www.kraken.com/\">Kraken</a> in continental Europe; <a href=\"https://www.coinfloor.co.uk/fees\">CoinFloor</a> in the UK; and <a href=\"https://www.btcc.com/\">BTCC</a>, GDAX, and <a href=\"https://www.okcoin.com/\">OKCoin</a> in Asia. For crypto-to-crypto exchanges offering a wide range of tokens, including those from initial coin offerings, take a look at <a href=\"https://poloniex.com/\">Poloniex</a> or <a href=\"https://bittrex.com/\">Bittrex</a>. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Exchanges charge a fee for deposits and withdrawals, and many also levy a fee per trade. Some exchanges offer fee-free trading, such as CoinFloor in the UK and Bitflyer in Japan. Fees are usually pegged to the volume of trades you do per month, and whether you’re placing orders to be filled at the market rate or at prices higher or lower than that, in what’s known as a “maker-taker” model. If you trade very little and only ask for the market rate, you’ll pay the highest fees, usually around 0.26% of a trade’s value.  </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>You can see the most popular exchanges by trading volume at third-party data sites like <a href=\"https://data.bitcoinity.org/markets/exchanges\">Bitcoinity</a>, <a href=\"https://www.cryptocompare.com/\">Cryptocompare</a>, and <a href=\"https://coinmarketcap.com/\">Coinmarketcap</a>. </p>"
+                "lastgraf": [
+                    {
+                        "type": "text",
+                        "value": "<p>You’re ready to move on from plain-vanilla bitcoin to something more exotic. You’ve probably heard about the <a href=\"https://qz.com/994466/the-new-cryptocurrency-gold-rush-digital-tokens-that-raise-millions-in-minutes/\">hundreds of millions</a> people have raised selling cryptotokens and want in on the action, dubious legality be damned… &#x1f680;</p>"
+                    }
+                ],
+                "modebody": [
+                    {
+                        "type": "text",
+                        "value": "<h2>How to access it: on the web</h2>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Accessing a wallet through a web interface can be more convenient than being tied to a phone app. Many web-based wallets are now so slick that they’re not much more complicated than using an app. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>One of the most popular web-based bitcoin wallets is, rather confusingly, named <a href=\"https://blockchain.info/wallet/#/\">Blockchain</a>. (That’s a bit like the most popular brand of jeans calling itself Denim.) Anyway, getting Blockchain’s wallet is about as difficult as signing up for a new email address.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>After you sign up you’re asked to deposit some money, and you can do so pretty much immediately with a debit card. It will cost you a 3% convenience fee, according to the website. If you decide to do it with a bank transfer then you’ll have to go through more rigorous identity checks intended to prevent Blockchain from inadvertently facilitating money laundering.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Blockchain only deals with bitcoin. For the ethereum and tokens crowd, there’s <a href=\"https://www.myetherwallet.com/\">MyEtherWallet</a>, which is usually referred to by its abbreviation, MEW. Creating a wallet at MEW is incredibly quick. Just click on “create a new wallet” and you’ll be guided through three steps before you have a brand new ethereum wallet ready to go. Remember to copy down your private key and keystore file somewhere—these allow you to access your wallet and restore it in case you lose your private key.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Both Blockchain and MEW don’t store your private keys, which means you have to take care to write down the various recovery phrases or store the encrypted private key files in a safe place. We’ve all heard that story of the guy who threw away his hard drive containing the private keys to <a href=\"https://gizmodo.com/some-fool-threw-away-a-hard-drive-with-7-5-million-of-1472685803\">a bitcoin fortune</a>, right?</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<h2>How to access it: on custom-built hardware</h2>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>The most secure, if inconvenient, way to store your hoard is to keep it offline. One option is Trezor, which plugs into your USB drive and costs <a href=\"https://shop.trezor.io/?h=7472657a6f722e696f\">about $100</a>. In theory, it could protect all your cryptoassets—it works with bitcoin, ethereum, and ethereum-based tokens—even if your computer has been hacked. Ledger is another popular hardware wallet-maker, with products starting from <a href=\"https://www.ledgerwallet.com/products\">around $80</a>.  </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>With Trezor, once you’ve bought and received your hardware—which is supposed to be protected from tampering with a security seal—you’ll need to plug it in with a USB cable for setup. You can do that online by installing some software or through a Google Chrome extension. An offline option for people with advanced skills is available using Python.</p><p>The next phase of the setup resembles other types of hardware purchases. You’ll create a recovery PIN and will need to come up with a 24-word recovery seed. That’s a string of text that you’ll have to write down somewhere. You’ll need to protect that text the same way you would any other important password. </p><p>Opendime is a hardware wallet (<a href=\"https://opendime.com/store\">$37.50 for a bag of three</a>) that is basically a disposable USB stick—think of it as carrying bitcoin around like cash that you plan to spend. It’s a bare circuit board covered in clear plastic that displays a QR code and a file with the bitcoin address when you plug it in. You will still need an online wallet to move funds on and off the device—it’s designed to be loaded with bitcoin once and then unloaded once. Transactions are meant to take place physically, like handing someone a gold coin or a wad of cash. This keeps it relatively safe from hackers, but you still have to reckon with the centuries-old problems of burglary. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<h2>How to get it: On an exchange</h2>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Exchanges are the main on-ramps to the cryptocurrency world. Opening an account with a cryptocurrency exchange is a lot like getting an account with a stock broker. You gain access to information on trading volumes in the market and decide what price you are willing to buy or sell. It’s useful if you’re planning to trade regularly, or want to take advantage of advanced features like trading on margin or selling short. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Generally, you’ll get the best rates on an exchange compared to other channels, like buying from an ATM. The trade-off is that setting up an account can be cumbersome, because you have to provide identification documents with the exchange in order to comply with anti-money laundering rules. Exchanges can take time to vet and approve this information, so don’t expect a quick turnaround. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>When picking an exchange, check that it serves your jurisdiction, and that it offers a bank account in your country that you can easily access. Also check its rules about withdrawing funds. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>The basic mechanics of all exchanges are the same: Wire money from a bank account to an exchange, wait for the funds to clear (usually between one and five days), and then start trading. You can withdraw funds in fiat currency via a bank transfer or by directing cryptocurrency to your own, off-exchange wallet. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Exchanges tend to specialize in certain geographies or currency pairs. Try <a href=\"https://www.gdax.com/\">GDAX</a>, <a href=\"https://gemini.com/\">Gemini</a>, or <a href=\"https://www.itbit.com/\">itBit</a> in the US; <a href=\"https://www.bitstamp.net/\">Bitstamp</a> or <a href=\"https://www.kraken.com/\">Kraken</a> in continental Europe; <a href=\"https://www.coinfloor.co.uk/fees\">CoinFloor</a> in the UK; and <a href=\"https://www.btcc.com/\">BTCC</a>, GDAX, and <a href=\"https://www.okcoin.com/\">OKCoin</a> in Asia. For crypto-to-crypto exchanges offering a wide range of tokens, including those from initial coin offerings, take a look at <a href=\"http://shapeshift.io\">Shapeshift</a>, <a href=\"https://poloniex.com/\">Poloniex</a> or <a href=\"https://bittrex.com/\">Bittrex</a>. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Exchanges charge a fee for deposits and withdrawals, and many also levy a fee per trade. Some exchanges offer fee-free trading, such as CoinFloor in the UK and Bitflyer in Japan. Fees are usually pegged to the volume of trades you do per month, and whether you’re placing orders to be filled at the market rate or at prices higher or lower than that, in what’s known as a “maker-taker” model. If you trade very little and only ask for the market rate, you’ll pay the highest fees, usually around 0.26% of a trade’s value.  </p>"
+                    }
+                ]
             }
         ],
         "investor": [
             {
-                "type": "text",
-                "value": "<p>The cryptoasset trading floor is global, non-stop, and littered with dank memes. Crypto literally doesn’t sleep—markets are open 24/7—and a unique culture has sprung up around trading these digital assets. Get up to speed on buying and hodling and don’t get rekt with <a href=\"https://qz.com/878728/buy-and-hodl-just-dont-get-rekt-the-slang-that-gets-you-taken-seriously-as-a-bitcoin-trader/\">our guide</a> to the jargon of the crypto trading floor. Good luck out there. &#x1f911;</p>"
-            },
-            {
-                "type": "text",
-                "value": "<h2>How to access it: on the web</h2>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Accessing a wallet through a web interface can be more convenient than being tied to a phone app. Many web-based wallets are now so slick that they’re not much more complicated than using a phone app. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>One of the most popular web-based bitcoin wallets is, rather confusingly, named <a href=\"https://blockchain.info/wallet/#/\">Blockchain</a>. (That’s a bit like the most popular brand of jeans calling itself Denim.) Anyway, getting Blockchain’s wallet is about as difficult as signing up for a new email address. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>After you sign up you’re asked to deposit some money, and you can do so pretty much immediately with a debit card. It will cost you a 3% convenience fee, according to the website. If you decide to do it with a bank transfer then you’ll have to go through more rigorous identity checks intended to prevent Blockchain from inadvertently facilitating money laundering.  </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Blockchain only deals with bitcoin. For the ethereum and tokens crowd, there’s <a href=\"https://www.myetherwallet.com/\">MyEtherWallet</a>, which is usually referred to by its abbreviation, MEW. Creating a wallet at MEW is incredibly quick. Just click on “create a new wallet” and you’ll be guided through three steps before you have a brand new ethereum wallet ready to go. Remember to copy down your private key and keystore file somewhere—these allow you to access your wallet and restore it in case you lose your private key. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Both Blockchain and MEW don’t store your private keys, which means you have to take care to write down the various recovery phrases or store the encrypted private key files in a safe place. We’ve all heard that story of the guy who threw away his hard drive containing the private keys to <a href=\"https://gizmodo.com/some-fool-threw-away-a-hard-drive-with-7-5-million-of-1472685803\">a bitcoin fortune</a>, right?</p>"
-            },
-            {
-                "type": "text",
-                "value": "<h2>How to access it: on custom-built hardware</h2>"
-            },
-            {
-                "type": "text",
-                "value": "<p>The most secure, if inconvenient, way to store your hoard is to keep it offline. One option is Trezor, which plugs into your USB drive and costs <a href=\"https://shop.trezor.io/?h=7472657a6f722e696f\">about $100</a>. In theory, it could protect all your cryptoassets—it works with bitcoin, ethereum, and ethereum-based tokens—even if your computer has been hacked. Ledger is another popular hardware wallet maker, with products starting from <a href=\"https://www.ledgerwallet.com/products\">around $80</a>.  </p><p>With Trezor, once you’ve bought and received your hardware—which is supposed to be protected from tampering with a security seal—you’ll need to plug it in with a USB cable for setup. You can do that online by installing some software or through a Google Chrome extension. An offline option for people with advanced skills is available using Python.</p><p>The next phase of the setup resembles other types of hardware purchases. You’ll create a recovery PIN and will need to come up with a 24-word recovery seed. That’s a string of text that you’ll have to write down somewhere. You’ll need to protect that text the same way you would any other important password. </p><p>Opendime is a hardware wallet (<a href=\"https://opendime.com/store\">$37.50 for a bag of three</a>) that is basically a disposable USB stick—think of it as carrying bitcoin around like cash that you plan to spend. It’s a bare circuit board covered in clear plastic that displays a QR code and a file with the bitcoin address when you plug it in. You will still need an online wallet to move funds on and off the device—it’s designed to be loaded with bitcoin once and then unloaded once. Transactions are meant to take place physically, like handing someone a gold coin or a wad of cash. This keeps it relatively safe from hackers, but you still have to reckon with the centuries-old problems of burglary. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<h2>How to get it: An exchange with advanced features</h2>"
-            },
-            {
-                "type": "text",
-                "value": "<p>If you have Gordon Gekko-like plans for domination of the financial markets, you’ll need the advanced features available on exchanges like Bitfinex, Poloniex, Kraken, and others.</p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Margin financing in the cryptocurrency world is like a primitive version of how it’s done for traditional asset classes like stocks or bonds. Each exchange has to create its own pool of margin financing, by allowing traders to put their funds up for loan—providing the funds to short cryptocurrencies and earning interest for doing so—and by letting traders borrow those coins. You can earn 0.25% interest on your bitcoin and 0.03% on your ether <a href=\"https://www.bitfinex.com/stats\">at Bitfinex</a> as of the end of July 2017. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>The granddaddy of leveraged crypto trading is Hong Kong-based Bitfinex. It offers up to 3.3x leverage on trades. Trading with borrowed money is so popular on Bitfinex that a third-party site called <a href=\"https://www.bfxdata.com/swaphistory/totals\">BFXData</a> has sprung up, offering analytics and live data on the state of Bitfinex’s markets. You can use it to gauge whether traders are going long or short bitcoin and other cryptos. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>Keep up with market chatter on the Whalepool <a href=\"https://whalepool.io/connect/telegram\">Telegram group</a> or <a href=\"https://whalepool.io/connect/teamspeak\">Teamspeak server</a>; by monitoring <a href=\"https://www.reddit.com/r/Bitcoin/\">r/bitcoin</a> and <a href=\"https://www.reddit.com/r/ethtrader/\">r/ethtrader</a>; and by reading <a href=\"http://coindesk.com\">CoinDesk</a> religiously. </p>"
-            },
-            {
-                "type": "text",
-                "value": "<p>If money never sleeps, crypto doesn’t even take naps. If you’re seeking more powerful leverage tools, head to <a href=\"http://magnr.com\">Magnr</a>, a London-based platform that offers 10x leverage on bitcoin; or Hong based <a href=\"https://www.bitmex.com\">BitMex</a>, which offers up to a 100x leverage on a bitcoin futures contract. Of course, such aggressive leverage can quickly magnify losses—but greed is good… right?</p>"
+                "lastgraf": [
+                    {
+                        "type": "text",
+                        "value": "<p>The cryptoasset trading floor is global, non-stop, and rife with <a href=\"https://qz.com/878728/buy-and-hodl-just-dont-get-rekt-the-slang-that-gets-you-taken-seriously-as-a-bitcoin-trader/\">dank memes</a>. Crypto literally doesn’t sleep—markets are open 24/7—and a unique culture has sprung up around trading these digital assets. If you want to dive in head-first, here’s how. &#x1f911;</p>"
+                    }
+                ],
+                "modebody": [
+                    {
+                        "type": "text",
+                        "value": "<h2>How to access it: on the web</h2>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Accessing a wallet through a web interface can be more convenient than being tied to a phone app. Many web-based wallets are now so slick that they’re not much more complicated than using an app. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>One of the most popular web-based bitcoin wallets is, rather confusingly, named <a href=\"https://blockchain.info/wallet/#/\">Blockchain</a>. (That’s a bit like the most popular brand of jeans calling itself Denim.) Anyway, getting Blockchain’s wallet is about as difficult as signing up for a new email address.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>After you sign up you’re asked to deposit some money, and you can do so pretty much immediately with a debit card. It will cost you a 3% convenience fee, according to the website. If you decide to do it with a bank transfer then you’ll have to go through more rigorous identity checks intended to prevent Blockchain from inadvertently facilitating money laundering.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Blockchain only deals with bitcoin. For the ethereum and tokens crowd, there’s <a href=\"https://www.myetherwallet.com/\">MyEtherWallet</a>, which is usually referred to by its abbreviation, MEW. Creating a wallet at MEW is incredibly quick. Just click on “create a new wallet” and you’ll be guided through three steps before you have a brand new ethereum wallet ready to go. Remember to copy down your private key and keystore file somewhere—these allow you to access your wallet and restore it in case you lose your private key.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Both Blockchain and MEW don’t store your private keys, which means you have to take care to write down the various recovery phrases or store the encrypted private key files in a safe place. We’ve all heard that story of the guy who threw away his hard drive containing the private keys to <a href=\"https://gizmodo.com/some-fool-threw-away-a-hard-drive-with-7-5-million-of-1472685803\">a bitcoin fortune</a>, right?</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<h2>How to access it: on custom-built hardware</h2>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>The most secure, if inconvenient, way to store your hoard is to keep it offline. One option is Trezor, which plugs into your USB drive and costs <a href=\"https://shop.trezor.io/?h=7472657a6f722e696f\">about $100</a>. In theory, it could protect all your cryptoassets—it works with bitcoin, ethereum, and ethereum-based tokens—even if your computer has been hacked. Ledger is another popular hardware wallet-maker, with products starting from <a href=\"https://www.ledgerwallet.com/products\">around $80</a>.  </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>With Trezor, once you’ve bought and received your hardware—which is supposed to be protected from tampering with a security seal—you’ll need to plug it in with a USB cable for setup. You can do that online by installing some software or through a Google Chrome extension. An offline option for people with advanced skills is available using Python.</p><p>The next phase of the setup resembles other types of hardware purchases. You’ll create a recovery PIN and will need to come up with a 24-word recovery seed. That’s a string of text that you’ll have to write down somewhere. You’ll need to protect that text the same way you would any other important password. </p><p>Opendime is a hardware wallet (<a href=\"https://opendime.com/store\">$37.50 for a bag of three</a>) that is basically a disposable USB stick—think of it as carrying bitcoin around like cash that you plan to spend. It’s a bare circuit board covered in clear plastic that displays a QR code and a file with the bitcoin address when you plug it in. You will still need an online wallet to move funds on and off the device—it’s designed to be loaded with bitcoin once and then unloaded once. Transactions are meant to take place physically, like handing someone a gold coin or a wad of cash. This keeps it relatively safe from hackers, but you still have to reckon with the centuries-old problems of burglary. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<h2>How to get it: An exchange with advanced features</h2>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>If you have Gordon Gekko-like plans for domination of the financial markets, you’ll need the advanced features available on exchanges like Bitfinex, Poloniex, Kraken, and others.</p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>Margin financing in the cryptocurrency world is like a primitive version of how it’s done for traditional asset classes like stocks or bonds. Each exchange has to create its own pool of margin financing, by allowing traders to put their funds up for loan—providing the funds to short cryptocurrencies and earning interest for doing so—and letting traders borrow those coins. You can earn 0.25% interest on your bitcoin and 0.03% on your ether <a href=\"https://www.bitfinex.com/stats\">at Bitfinex</a>. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>The granddaddy of leveraged crypto trading is Hong Kong-based Bitfinex. It offers up to 3.3x leverage on trades. Trading with borrowed money is so popular on Bitfinex that a third-party site called <a href=\"https://www.bfxdata.com/swaphistory/totals\">BFXData</a> has sprung up, offering analytics and live data on the state of Bitfinex’s markets. You can use it to gauge whether traders are going long or short bitcoin and other cryptos. </p>"
+                    },
+                    {
+                        "type": "text",
+                        "value": "<p>If you’re seeking more powerful leverage tools, head to <a href=\"http://magnr.com\">Magnr</a>, a London-based platform that offers 10x leverage on bitcoin; or Hong based <a href=\"https://www.bitmex.com\">BitMex</a>, which offers up to a 100x leverage on a bitcoin futures contract. Of course, such aggressive leverage can quickly magnify losses—but greed is good… right?</p>"
+                    }
+                ]
             }
         ]
     }

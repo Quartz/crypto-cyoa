@@ -1,5 +1,14 @@
 {
-    "ask": "So you want to buy bitcoin, ethereum, or another digital currency—great! Quartz is here to help!",
+    "ask": [
+        {
+            "type": "text",
+            "value": "So you want to buy bitcoin, ethereum, or another digital currency—great! Quartz is here to help!"
+        },
+        {
+            "type": "text",
+            "value": "But before we get started, answer one simple question in the dropdown menu below:"
+        }
+    ],
     "modes": {
         "none": "How much do you know about cryptocurrencies?",
         "learner": "I’ve been hearing about this bitcoin thing.",
@@ -10,15 +19,15 @@
     "intro": [
         {
             "type": "text",
-            "value": "<p>This cheat sheet will get you started on two things: how to acquire cryptocurrencies, and how to store them. We’ve designed it for the increasingly diverse groups who are interested in cryptoasset markets, from the merely curious to the utterly obsessed."
+            "value": "<p>This cheat sheet will get you started on two things: how to acquire cryptocurrencies, and how to store them. We’ve designed it for the increasingly diverse groups who are interested in cryptoasset markets, from the merely curious to the utterly obsessed.  </p>"
         },
         {
             "type": "text",
-            "value": "<p>It’s important to note that although we talk about cryptocurrencies being stored in digital wallets, this is just a metaphor—one of several confusing ones in the crypto world. Your cryptocurrency funds never actually leave their respective <a href=\"https://medium.com/the-intrepid-review/how-does-the-blockchain-work-for-dummies-explained-simply-9f94d386e093\">blockchains</a>. What you are storing is a specific private key, a string of characters that allow you to access those funds."
+            "value": "<p>It’s important to note that although we talk about cryptocurrencies being stored in digital wallets, this is just a metaphor—one of several confusing ones in the crypto world. Your cryptocurrency funds never actually leave their respective <a href=\"https://medium.com/the-intrepid-review/how-does-the-blockchain-work-for-dummies-explained-simply-9f94d386e093\">blockchains</a>. What you are storing is a specific private key, a string of characters that allow you to access those funds.</p>"
         },
         {
             "type": "text",
-            "value": "<p>There are many ways to store those private keys, ranging from printing them out and locking the paper in a safe, to slick mobile apps. There are a similarly diverse ways to acquire cryptocoins, with various trade-offs in privacy, cost, and convenience."
+            "value": "<p>There are many ways to store those private keys, ranging from printing them out and locking the paper in a safe, to slick mobile apps. There are a similarly diverse ways to acquire cryptocoins, with various trade-offs in privacy, cost, and convenience. </p>"
         },
         {
             "type": "text",
@@ -26,7 +35,7 @@
         },
         {
             "type": "text",
-            "value": "<p>You will notice that some ways to acquire cryptocurrencies are cheaper than others. This reflects the trade-offs inherent in the nascent crypto-financial services industry. You’ll pay a premium for the privacy of using a bitcoin ATM, for example. You’ll pay less to use a bitcoin exchange, in return for handing over identifying documents."
+            "value": "<p>You will notice that some ways to acquire cryptocurrencies are cheaper than others. This reflects the trade-offs inherent in the nascent crypto-financial services industry. You’ll pay a premium for the privacy of using a bitcoin ATM, for example. You’ll pay less to use a bitcoin exchange, in return for handing over identifying documents. </p>"
         },
         {
             "type": "text",
@@ -34,7 +43,7 @@
         },
         {
             "type": "text",
-            "value": "<p>Cryptocurrencies are in the midst of an historic bull run. Ethereum has risen 40-fold and bitcoin has set a series of new record highs this year. But what goes up sometimes comes down. And remember: none of what we’re telling you here is investment advice."
+            "value": "<p>Cryptocurrencies are in the midst of an historic bull run. Ethereum has risen 40-fold and bitcoin has set a series of new record highs this year. (What on earth is ethereum, you ask? <a href=\"http://whatthefuckisethereum.com\">Here’s a detailed explainer</a>.) But what goes up sometimes comes down. And remember: none of what we’re telling you here is investment advice. </p>"
         }
     ],
     "mode": {
@@ -121,7 +130,7 @@
                 "lastgraf": [
                     {
                         "type": "text",
-                        "value": "<p>OK, so you think money should be free, and not under the thumb of the state. Decentralized, open-source, cryptocurrencies are the answer. Here’s how you join the revolution.✊.</p>"
+                        "value": "<p>OK, so you think money should be free, and not under the thumb of the state. Decentralized, open-source, cryptocurrencies are the answer. Here’s how you join the revolution.✊</p>"
                     }
                 ],
                 "modebody": [

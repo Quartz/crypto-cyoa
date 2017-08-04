@@ -1,4 +1,5 @@
-p#ask!= ask
+for graf in ask
+	p.ask!= graf.value
 
 div#modes
 	select
@@ -8,7 +9,7 @@ div#modes
 for v, k in modes
 	div(class=k, class="mode")
 		for graf in mode[k][0].lastgraf
-			div!= graf.value
+			div(class="mode-lastgraf")!= graf.value
 
 for graf in intro
 	div(id=k, class="intro")
@@ -27,11 +28,11 @@ div#table1
 					td Method
 					td Average spread
 					td Examples
-					td Additional fees
+					td Added fees
 			tbody
 				tr.qz-table-row
 					td ATM
-					td 8.76%
+					td 8.8%
 					td <a href="https://satoshipoint.com/">SatoshiPoint</a>, <a href="http://www.coinsource.net/">Coinsource</a>
 					td NA
 				tr.qz-table-row-alt
@@ -40,10 +41,15 @@ div#table1
 					td <a href="http://localbitcoins.com">LocalBitcoins</a>
 					td 1% for advertisements
 				tr.qz-table-row
-					td Exchange
-					td 0.02%
-					td <a href="https://www.coinbase.com/">Coinbase</a> GDAX USD using credit card
-					td 0.25% taker
+					td Basic Exchange
+					td 0.5%
+					td <a href="https://www.coinbase.com/">Coinbase</a>
+					td 2-4% per trade
+				tr.qz-table-row-alt
+					td Sophisticated exchange
+					td 0.02-0.04%
+					td <a href="https://www.gdax.com/fees/BTC-USD">Coinbase GDAX</a>, <a href="https://www.bitfinex.com/fees">Bitfinex</a>
+					td 0.2-0.25% per trade
 
 div#table2
 	div.qz-table-container
@@ -61,8 +67,8 @@ div#table2
 				tr.qz-table-row-alt
 					td Peer-to-peer
 					td Fairly fast, bespoke
-					td Unstandardized transactions standards
+					td Nonstandard transactions
 				tr.qz-table-row
-					td Exchange
-					td Time consuming
+					td Exchanges
+					td Time-consuming setup
 					td Cheaper in the long run

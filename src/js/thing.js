@@ -29,8 +29,11 @@ function init() {
 	fm.setup()
 
 	d3.select("#modes select").on("change", onModeChange);
-	d3.select(".table1").html(d3.select("#table1").html());
-	d3.select(".table2").html(d3.select("#table2").html());
+	// d3.select(".table1").html(d3.select("#table1").html());
+	// d3.select(".table2").html(d3.select("#table2").html());
+
+	d3.select(".table1").html('<img src="assets/table1.png" />')
+	d3.select(".table2").html('<img src="assets/table2.png" />')
 
 	window.addEventListener("resize", utils.throttle(onResize, 250), true);
 }

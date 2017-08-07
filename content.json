@@ -10,11 +10,11 @@
         }
     ],
     "modes": {
-        "none": "How much do you know about cryptocurrencies?",
-        "learner": "I’ve been hearing about this bitcoin thing.",
-        "shopper": "Down with central banks! How do I get started?",
-        "buyer": "I have some bitcoin, but want to level up to tokens.",
-        "investor": "Call me G0rd0n G3kk0. Crypto never sleeps."
+        "none": "How much do you know?",
+        "learner": "I’ve heard about this bitcoin thing.",
+        "shopper": "Let’s do this! How do I get started?",
+        "buyer": "I want to level-up to tokens.",
+        "investor": "I’m G0rd0n G3kk0. Crypto never sleeps."
     },
     "intro": [
         {
